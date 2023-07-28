@@ -1,0 +1,54 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.project h1{
+    margin-top: 2rem;
+}
+.project img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+.project a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 96, 96);
+    gap: .3rem;
+}
+.project a svg{
+    color: rgb(138, 138, 25);
+}
+@media screen and (max-width:480px) {
+    .project{
+        height: calc(100vh - 160px);
+    }
+    .project h1{
+        margin-top: 2rem;
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .project p{
+        font-size: 20px;
+    }
+    .project a{
+        font-size: 20px;
+    }
+}
