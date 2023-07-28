@@ -1,5 +1,5 @@
 .home{
-   
+   margin-top: 4rem;
 }
 .about{
     height: 40vh;
@@ -10,8 +10,9 @@
     gap: 1.5rem;
     background-color: rgb(25, 85, 87);
 }
-.about h2{
+.about .h2{
     color: rgb(173, 173, 173);
+    margin-top: 2rem;
 }
 .about p{
     color: white;
@@ -73,6 +74,7 @@
     }
     .about{
        width: 100%;
+       margin-top: 5rem;
        
     }
     .prompt{

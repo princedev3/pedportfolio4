@@ -5,7 +5,7 @@ import { ProjectLists } from '../Asset'
 const Projects = () => {
   return (
     <div className='projects'>
-      <h1>My personal project</h1>
+      <h1 className='h1'>My personal project</h1>
 
       <div className='projectlist'>
       {

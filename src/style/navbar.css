@@ -61,8 +61,8 @@
   .overlay{
     z-index: -1;
     display: flex;
-    height: 100vh ;
-    top: 10px;
+    min-height: 125vh ;
+    top: 0px;
    
     background-color: rgb(25, 85, 87);
     width: 100%;
@@ -73,6 +73,7 @@
    
   }
   .overlay .link{
+    margin-top: 1rem;
     color: white;
     text-decoration: none;
     letter-spacing: 1px;

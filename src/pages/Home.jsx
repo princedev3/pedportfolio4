@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='home'>
         <div className='about'>
-          <h2>hi, my name is Prince Ali</h2>
+          <h2 className='h2'>hi, my name is Prince Ali</h2>
           <div className='prompt'><p>i am a UI/UX  developer with a passion for learning. coding is like a hobby</p></div>
               <div className='home-list'>
                <div>

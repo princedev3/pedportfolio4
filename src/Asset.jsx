@@ -5,10 +5,10 @@
 import p1 from "../src/asset/p1.jpeg"
 import p2 from "../src/asset/p2.jpeg"
 import p3 from "../src/asset/p3.png"
-import p4 from "../src/asset/p4.png"
-import p5 from "../src/asset/p5.png"
-import p7 from "../src/asset/p7.png"
-import p9 from "../src/asset/p9.jpeg"
+import p4 from "../src/asset/p4.jpeg"
+import p5 from "../src/asset/p5.jpeg"
+import p7 from "../src/asset/p7.jpeg"
+//import p9 from "../src/asset/p9.jpeg"
 
 
 export const ProjectLists = [
@@ -26,13 +26,7 @@ export const ProjectLists = [
     skills: "React,Node.js,MongoDB",
     link:"https://lama-port.vercel.app/"
   },
-  {
-    id:3,
-    name: "Spotify Clone",
-    image: p3,
-    skills: "React",
-    link:"https://portfolio-tailwind-phcs.vercel.app/"
-  },
+ 
   {
     id:4,
     name: "Social Media Website",
